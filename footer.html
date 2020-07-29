@@ -13,11 +13,16 @@
 </head>
 
 <body>
+    <!-- <div class="dropdown">
+        <button class="btn btn-dark dropdown-toggle text-uppercase text-left none col-12" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More options
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> -->
     <section class="container-fluid darkened">
-        <div class="container d-flex justify-content-between">
+        <div class="container footer d-flex justify-content-between">
             <nav class="nav flex-column nav-about">
-                <p class="text-light text-uppercase">About Konga</p>
-                <a class="nav-link text-light p-1 m-0" href="#">Contact Us</a>
+                <p class="text-light dropdown-item flex-row pl-0 text-uppercase">About Konga</p>
+                <a class="nav-link text-light p-1 m-0 dropdown-item" href="#">Contact Us</a>
                 <a class="nav-link text-light p-1 m-0" href="#">About Us</a>
                 <a class="nav-link text-light p-1 m-0" href="#">Careers</a>
                 <a class="nav-link text-light p-1 m-0" href="#">Our Blog</a>
@@ -25,7 +30,7 @@
                 <a class="nav-link text-light p-1 m-0" href="#">Terms & Conditions</a>
             </nav>
             <nav class="nav flex-column">
-                <p class="text-light text-uppercase">Payment</p>
+                <p class="text-light dropdown-item text-uppercase">Payment</p>
                 <a href="#" class="nav-link text-light p-1 m-0">Konga Pay</a>
                 <a href="#" class="nav-link text-light p-1 m-0">Wallet</a>
                 <a href="#" class="nav-link text-light p-1 m-0">Verve</a>
@@ -52,33 +57,44 @@
                 <p class="text-light text-uppercase">Make money on konga</p>
                 <a href="#" class="nav-link text-light p-1 m-0">Become a Konga Affiliate</a>
             </nav>
-            <!-- </div> -->
-            <!-- <div class="row d-flex flex-row"> -->
             <nav class="nav flex-column">
                 <p class="text-light text-uppercase">Download & connect with us</p>
-                <div class="header-apple">
-                    <a href="">
-                        <div class="apple-head d-inline-flex">
+                <div class="header-logo-section d-flex align-items-start justify-content-between">
+                    <a class="header-apple mr-auto " href="">
+                        <div class="d-inline">
                             <img src="./assets/images/apple.png" alt="apple logo">
                         </div>
-                        <div class="apple-head-items">
-                            <p class="text-light">Download on</p>
+                        <div class="apple-head-items d-inline-flex flex-column">
+                            <p class="text-light m-0">Download on</p>
                             <h6 class="text-light">App Store</h6>
                         </div>
                     </a>
-                    <div class="android-head">
-                        <a href="">
-                            <img src="./assets/images/android.png" alt="android logo">
-                            <div class="apple-head-items">
-                                <p class="text-light">Download on</p>
-                                <h6 class="text-light">Google Play</h6>
-                            </div>
-                        </a>
+                    <a class="header-android" href="">
+                        <div class="d-flex flex-column">
+                            <img width src="./assets/images/android.png" alt="android logo">
+                        </div>
+                        <div class="android-head-items d-inline-flex flex-column">
+                            <p class="text-light m-0">Download on</p>
+                            <h6 class="text-light">Google Play</h6>
+                        </div>
+                    </a>
+                    <div class="social-links flex-wrap">
+                        <p class="text-light text-uppercase">Connect with us</p>
+                        <a href="#" class="nav-link"><img src="./assets/images/fb.jpg" alt="Facebook Link"></a>
+                        <a href="#" class="nav-link"><img src="./assets/images/twitter.png" alt="Twitter Link"></a>
+                        <a href="#" class="nav-link"><img src="./assets/images/ig.jpg" alt="Instagram Link"></a>
+                        <a href="#" class="nav-link"><img src="./assets/images/yt.png" alt="Youtube Link"></a>
                     </div>
                 </div>
             </nav>
         </div>
-        </div>
+        <section class="footer-copy justify-content-around  d-flex">
+            <div class="border-bottom"></div>
+            <!-- <hr> -->
+            <p class="text-light">Copyright &copy; 2020 Konga.com. All rights reserved.</p>
+            <div class="align-items-start"></div>
+            <!-- <hr class="bg-info"> -->
+        </section>
     </section>
 
 
