@@ -32,6 +32,22 @@ a {
     font-size: 25px;
 }
 
+.footer-copy p {
+    text-align: center;
+}
+
+.footer-copy p::before,
+.footer-copy p::after {
+    background-color: #333;
+    content: "";
+    display: inline-block;
+    height: .125rem;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    align-self: flex-end;
+}
+
 @media screen and (min-width: 992px) and (max-width:1200px) {
     .nav-money {
         order: 1;
