@@ -72,6 +72,6 @@ a {
 
 @media screen and (max-width: 576px) {
     .hide-navbar {
-        display: none;
+        /* display: none!important; */
     }
 }
