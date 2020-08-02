@@ -1,0 +1,77 @@
+.footer {
+    width: 100vw;
+}
+
+section.darkened {
+    background-color: rgb(15, 15, 15);
+}
+
+a {
+    font-size: 12px;
+}
+
+#dropdown-color {
+    background-color: #000000;
+}
+
+.header-apple>i,
+.header-android>i {
+    font-size: 30px;
+}
+
+.social-links a {
+    padding: 10px;
+    border-radius: 1.5625rem;
+    width: 2.625rem;
+    height: 2.625rem;
+    justify-content: center;
+    margin: .125rem 3% .125rem .125rem;
+}
+
+.social-links a>i {
+    font-size: 25px;
+}
+
+.footer-copy p {
+    text-align: center;
+}
+
+.footer-copy p::before,
+.footer-copy p::after {
+    background-color: #333;
+    content: "";
+    display: inline-block;
+    height: .125rem;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    align-self: flex-end;
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .nav-money {
+        order: 1;
+        flex-grow: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-money,
+    .nav-about,
+    .nav-download,
+    .nav-buy {
+        flex-basis: auto;
+    }
+    .social-links-item {
+        background-color: #333;
+        filter: grayscale(100%);
+        transition: background-color .3s ease-in-out;
+        flex-grow: 1;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .hide-navbar {
+        /* display: none!important; */
+    }
+}
